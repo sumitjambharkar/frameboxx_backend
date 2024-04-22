@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const corsOptions = {
-  origin:['https://frameboxdadar.com','https://frameboxdadar.in','http://localhost:3000'],
+  origin:['https://frameboxdadar.com','https://frameboxdadar.in','http://localhost:3000','https://frameboxx-frontend.vercel.app'],
   methods: ['GET', 'POST'], 
 };
 
